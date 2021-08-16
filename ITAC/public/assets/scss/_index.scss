@@ -1,0 +1,421 @@
+@mixin centered-bg-section($bg-img) {
+    background: no-repeat $bg-img center center ;
+    background-size: contain;
+}
+@mixin bottom-bg-section($bg-img) {
+    background-image: $bg-img;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+}
+@mixin team-img-border-top {
+    content: "+";
+    position: absolute;
+    top: -14px;
+    color: #595B6B;
+}
+@mixin slider-btn($icon) {
+        position: absolute;
+        z-index: 5554;
+        top: 50%;
+        outline: none;
+        opacity: .1;
+        transition: .4s;
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        &::after{
+            content: $icon;
+            font-size: 50px;
+            font:normal normal normal 50px/1 FontAwesome;
+            color: white;
+            font-weight: 300;
+        }
+        &:hover{
+            opacity: 1;
+        }
+}
+////SLIDER SECTION
+#slider-section{
+    .slider-item{
+        background-image: url('../img/slider_img01.jpg');
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        padding: 200px 0;
+        font-weight: 600;
+        .slider-content{
+            h5{
+                color: white;
+                font-size: 16px;
+                font-weight: 60;
+                text-transform: uppercase;
+                letter-spacing: 6px;
+                display: block;
+                margin-bottom: 20px;
+            }
+            h2{
+                color: white;
+                font-size: 58px;
+                letter-spacing: 1.8px;
+                line-height: 1.1;
+                margin-bottom: 40px;
+                span{
+                    color: $main-text-color;
+                }
+            }
+            p{
+                color: white;
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+            .btn-after{
+                border-color: rgb(236, 234, 234);
+            }
+        }
+    }
+    .slider-next{
+        @include slider-btn('\f138');
+        right: 50px;
+    }
+    .slider-prev{
+        @include slider-btn("\f137");
+        left: 50px;
+    }
+}
+
+////ABOUT SECTION
+#about-us{
+    padding: 120px 0;
+    background: no-repeat url('../img/about_aliment_bg.png') center center ;
+    background-size: contain;
+    .about-content{
+        padding-left: 30px;
+        .section-heading{
+            text-align: left;
+        }
+        p{
+            margin-bottom: 15px;
+        }
+        .sign-text{
+            font-size: 22px;
+            color: $main-text-color;
+            font-weight: 600;
+        }
+    }
+}
+
+
+////COUNTER SECTION
+#counter-section{
+    @include bottom-bg-section($bg-img: url('../img/count-bg.jpg'));
+    .counter-item{
+        text-align: center;
+        .counter{
+            font-size: 35px;
+            color: $main-text-color;
+            font-weight: 600;
+            margin-bottom: 13px;
+            
+        }
+        p{
+            font-size: 16px;
+            color: white;
+        }
+        .counter-item-img{
+            margin-bottom: 30px;
+        }
+        .line{
+            display: inline-block;
+            width: 1px;
+            height: 50px;
+            background: $main-text-color;
+            margin-bottom: -5px;
+            margin-top: 10px;
+        }
+    }
+}
+
+///SERVICE SECTION
+#service-section{
+    @include centered-bg-section(url('../img/services_aliment_bg.png') );
+    padding-top: 120px;
+    padding-bottom: 90px;
+    .section-heading{
+        padding: 0 40px;
+        margin-bottom: 80px;
+    }
+    .service-item{
+        transition: .3s;
+        padding: 30px 15px;
+        border: none;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        .service-item-img{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background: $main-text-color;
+            margin-bottom: 20px;
+            box-shadow: 3px 4px 15px #00000040;
+            border-radius: 15px;
+            padding: 10px;
+            .active-img{
+                display: block;
+            }
+            .d-active-img{
+                display: none;
+            }
+        }
+        .service-item-content{
+            h5{
+                
+                a{
+                    font-weight: 600;
+                    transition: .4s;
+                    font-size: 18px;
+                    color: #252525 ; 
+                    text-decoration: none;
+                    }
+            }
+            p{
+                color: black;
+            }
+        }
+    }
+    .active{
+        background-image: url('../img/se-hover-bg.png');
+        box-shadow: 3px 4px 15px #eb34497d;
+        background-repeat: no-repeat;
+        background-size: cover;
+        a,p{
+            color: white !important;
+
+        }
+        .service-item-img{
+            background-color: white;
+            .active-img{
+                display: none;
+            }
+            .d-active-img{
+                display: block;
+            }
+        }
+        
+    }
+}
+
+
+
+///OUR TEAM SECTION
+#our-team-section{
+    @include centered-bg-section(url("../img/our_team_bg.png"));
+    padding-top: 95px;
+    border-bottom: 90px;
+    .team-item{
+        cursor: pointer;
+        padding: 20px 15px;
+       .team-item-img{
+           text-align: center;
+           width: 100%;
+           .img-inner{
+                border: 1px solid #70707042;
+                border-bottom: none;
+                display: inline-block;
+                padding: 30px 10px 0;
+                position: relative;
+                margin-top: 5px;
+                &::before{
+                    @include team-img-border-top();
+                    left: -6px;  
+                }
+                &::after{
+                    @include team-img-border-top();
+                    right: -6px;  
+                }
+           }
+       }
+       .team-item-content{
+           background-color: white;
+           padding: 30px 20px;
+            text-align: center;
+            box-shadow: 3px 4px 15px #00000026;
+            border-radius: 10px;
+            position: relative;
+            transition: .4s;
+            span{
+                text-transform: uppercase;
+                font-size: 15px;
+            }
+            .team-links{
+                list-style: none;
+                margin-top: 15px;
+                li{
+                    a{
+                        font-size: 12px;
+                        color: $main-text-color;
+                        margin: 0 5px;
+                        padding: 10px 14px;
+                        text-align: center;
+                        background: #fddbd9;
+                        transition: .4s;
+                        border-radius: 50%;
+                        line-height: 30px;
+                        &:hover{
+                            background-color: $main-color;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+       }
+       &:hover{
+
+           .team-item-content{
+            transform: translateY(-15px);
+            &::before{
+                content: "";
+                height: 20px;
+                background: transparent linear-gradient(
+                30deg
+            , #C81912 0%, #F64B3C 100%) 0% 0% no-repeat padding-box;
+                box-shadow: 3px 4px 15px #eb334973;
+                width: 100%;
+                bottom: 0;
+                position: absolute;
+                left: 0;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            
+           }
+           .img-inner{
+            border: 1px solid #F64B3C2B;
+            &::before,&::after{
+                color: $main-text-color;
+            }
+        }
+       }
+       
+    }
+}
+
+
+////BRANDS SECTION
+#brands-section{
+    padding: 60px 0;
+    background-color: white;
+    .brand-item{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 3px 4px 15px #00000026;
+        border-radius: 10px;
+        padding: 40px 20px;
+        margin: 20px 0;
+        text-align: center;
+        cursor: pointer;
+        transition: .4s;
+        &:hover{
+            background: $btn-background;
+        }
+        img{
+            height: 40px;
+        }
+    }
+}
+
+
+///CALL SECTION
+#call-section{
+    @include bottom-bg-section(url('../img/call-bg.png'));
+    .call-content{
+        margin-top: 100px;
+
+        h4{
+            color: white;
+            font-weight: 600;
+            font-size: 35px;
+            span{
+                color: $main-text-color;
+            }
+
+        }
+        p{
+            color: white;
+            line-height: 24px;
+            margin-bottom: 15px;
+        }
+        h2{
+            color: $main-text-color;
+            font-size: 55px;
+        }
+    }
+}
+
+
+
+///CONTACT SECTION
+
+#contact-section{
+    padding: 90px 0;
+    background: url('../img/contact_bg.png') no-repeat;
+    background-size: cover;
+    .section-heading{
+        text-align: left;
+        h3{
+            color: white;
+        }
+        .section-title{
+            margin-bottom: 10px;
+        }
+    }
+    .contact-form{
+        .contact-item{
+            position: relative;
+            margin-bottom: 20px;
+            input,textarea{
+                width: 100%;
+                background: white;
+                padding: 14px 20px;
+                border: 1px solid #dfdfdf;
+                border-radius: 10px;
+            }
+            &::after{
+                position: absolute;
+                font:normal normal normal 14px/1 FontAwesome;
+                font-size: 16px;
+                text-align: center;
+                color: $main-color;
+                top: 16px;
+                right: 25px;
+            }
+            
+        }
+
+        .btn-after{
+            border: 1px solid rgba(255, 255, 255, 0.849);
+        }
+        .icon-user{
+            &::after{
+                content: "\f007";
+            }
+        }
+        .icon-mail{
+            &::after{
+                content: "\f003";
+            }
+        }
+        .icon-file{
+            &::after{
+                content: "\f249";
+            }
+        }
+        .icon-pen{
+            &::after{
+                content: "\f040";
+            }
+        }
+    }
+}

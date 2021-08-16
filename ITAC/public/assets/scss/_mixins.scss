@@ -1,0 +1,31 @@
+@mixin gradient-btn {
+    background: $btn-background;
+    box-shadow: 3px 4px 15px #eb3449a6;
+    transition: all .3s linear;
+}
+@mixin shiny {
+    &:hover{
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(218,45,35,1) 47%, rgba(255,255,255,1) 100%);
+    }
+}
+@mixin  btn($border,$border-radius,$padding,$font-size) {
+    border: $border;//none
+    border-radius: $border-radius;//8px
+    text-align: center;
+    padding: $padding;//15px 45px
+    font-weight: 600;
+    transition: all ease .3s;
+    z-index: 5;
+    color: white;
+    font-size: $font-size;//8px
+    font-weight: 600;
+    z-index: 6;
+    text-decoration: none;
+}
+@mixin onhover-main-color-bg {
+    &:hover{
+        background-color: $main-color;
+        color: white;
+        border-color: $main-color;
+    }
+}

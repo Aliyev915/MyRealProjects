@@ -1,0 +1,984 @@
+@media only screen and (max-width: 1330px) {
+    .nav2 input {
+      position: absolute;
+      top: 100%;
+      left: 75%;
+    }
+    .banner h1 {
+      font-size: 50px;
+    }
+    .brands span {
+      font-size: 35px;
+    }
+  }
+  @media only screen and (max-width: 1316px) {
+    .nav2 .search {
+      width: 18px;
+      height: 18px;
+    }
+    .banner h1 {
+      font-size: 46px;
+    }
+    .brands h1 {
+      font-size: 43px;
+    }
+    .groupes .workBx .brand_img {
+      padding-top: 87px;
+    }
+    .groupes .container2 h1 {
+      font-size: 43px;
+    }
+    .groupes.resept .resept1 {
+      width: 320px;
+    }
+  }
+  @media only screen and (max-width: 1250px) {
+    .nav2 ul li a {
+      font-size: 17px;
+    }
+    .nav2 input {
+      left: 75%;
+    }
+    .container {
+      width: 90%;
+    }
+    .nav2 .search {
+      position: absolute;
+      top: 60%;
+      left: 94%;
+      width: 16px;
+      height: 16px;
+    }
+    .brands h1 {
+      font-size: 38px;
+    }
+    .brands span {
+      font-size: 32px;
+    }
+    .container2 {
+      width: 90%;
+    }
+    .groupes .container2 h1 {
+      font-size: 38px;
+    }
+    .groupes .workBx {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      grid-gap: 40px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .groupes.resept .resept1 {
+      width: 320px;
+      margin: 20px auto;
+    }
+  }
+
+  @media only screen and (max-width: 1110px) {
+    .container2 {
+      width: 95%;
+    }
+    .container {
+      width: 95%;
+    }
+    .nav2 {
+      margin-right: 15px;
+    }
+    .nav2 ul li a {
+      font-size: 16px;
+      margin-right: 8px;
+    }
+    .nav2 input {
+      left: 75%;
+    }
+    .banner h1 {
+      font-size: 38px;
+    }
+    .brands span {
+      font-size: 28px;
+    }
+    .row3 .row3-col1 {
+      min-width: 200px;
+      height: 250px;
+    }
+    .row3 .row3-col2 {
+      min-height: 250px;
+      width: 200px;
+    }
+    .row3 .row3-col3 {
+      height: 250px;
+      min-width: 200px;
+    }
+    .content .row3 a {
+      font-size: 28px;
+    }
+    .brands h1 {
+      font-size: 35px;
+    }
+    .groupes .container2 h1 {
+      font-size: 35px;
+    }
+    .groupes .workBx {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+      grid-gap: 40px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .recipes h1 {
+      font-size: 35px;
+    }
+    .recipes .btn {
+      font-size: 25px;
+      padding: 7px 25px;
+    }
+    .tarix .history_row_2 .pobeda_mehsul_1 {
+      width: 180px;
+      height: 88px;
+      position: absolute;
+    }
+    .tarix .history_row_2 .pobeda_mehsul_2 {
+      width: 142px;
+      height: 112px;
+      position: absolute;
+      top: 50%;
+      right: -26%;
+      z-index: 100;
+    }
+  }
+  @media only screen and (max-width: 1090px) {
+    .nant_video{
+        width: 80%;
+    }
+    .row3 {
+      display: inline-block;
+      margin: 0 auto;
+    }
+    .resept1 {
+      margin: 0 auto;
+    }
+    .tarix .dotted_line_1,
+    .tarix .dotted_line_2,
+    .tarix .dotted_line_3 {
+      display: none;
+    }
+    .tarix .history_row_2 .pobeda_mehsul_2 {
+      top: 60%;
+      right: -24%;
+    }
+    .azerbaycan{
+      justify-content: center;
+    }
+    footer .footer_col_1 {
+      flex: 2;
+    }
+    footer .footer_col_2 {
+      flex: 1;
+    }
+    footer .footer_col_3 {
+      flex: 0;
+    }
+  }
+  @media only screen and (max-width: 1027px) {
+      .carousel-indicators{
+        display: none;
+      }
+    .groupes.resept .resept1 {
+      width: 250px;
+    }
+    .groupes.resept .resept1 img {
+      height: 180px;
+    }
+    .groupes.resept .resept1 a {
+      font-size: 18px;
+    }
+    .groupes.resept .resept1 p {
+      font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 1020px) {
+    .popup{
+      min-width: auto;
+      min-height: auto;
+    }
+    .brands.brend .col {
+      min-width: 380px;
+    }
+    .brands.brend .col h3 {
+      font-size: 20px;
+    }
+    .brands.brend .col p {
+      font-size: 12px;
+    }
+    .brands .row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      overflow: hidden;
+    }
+    .brands .col {
+      position: relative;
+      flex-basis: 45%;
+      min-width: 440px;
+      margin: 0 auto;
+      max-height: 300px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    .brands .left {
+      width: 170px;
+      position: absolute;
+      top: 8%;
+      left: 5%;
+    }
+    .brands .right {
+      position: absolute;
+      left: 45%;
+      top: 25%;
+      height: 258px;
+      width: 265px;
+      transition: 0.6s;
+      overflow: hidden;
+    }
+  }
+  @media only screen and (max-width: 960px) {
+    .history_row_2.pobeda{
+        margin-top: -70px !important;
+    }
+    .history_row_2.pobeda .content{
+        margin-top: 70px !important;
+    }
+    .nav2 ul li a{
+      font-size: 15px;
+    }
+    .brands .row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      overflow: hidden;
+    }
+    .brands .col {
+      position: relative;
+      flex-basis: 42%;
+      min-width: 410px;
+      margin: 0 auto;
+      max-height: 300px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    .brands .left {
+      width: 160px;
+      position: absolute;
+      top: 8%;
+      left: 5%;
+    }
+    .brands .right {
+      position: absolute;
+      left: 45%;
+      top: 25%;
+      height: 258px;
+      width: 245px;
+      transition: 0.6s;
+      overflow: hidden;
+    }
+    .tarix .history_row_1 .content,
+    .tarix .history_row_2 .content {
+      width: 400px;
+      padding-bottom: 40px;
+    }
+    .tarix .history_row_1 .main,
+    .tarix .history_row_2 .main {
+      padding-top: 40px;
+    }
+    .tarix .history_row_1.nant {
+      margin-bottom: -110px;
+    }
+    .tarix .history_row_2 .pobeda_mehsul_2 {
+      top: 60%;
+      right: -24%;
+    }
+    .tarix h1{
+      font-size: 26px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .container2 .carousel-control-prev i, .carousel-control-next i{
+        top: 65%;
+    }
+    header {
+      padding: 10px 0;
+    }
+    .container .header_logo {
+      width: 160px;
+      height: 76px;
+    }
+    .nav1 {
+      display: none;
+    }
+    .nav1 select option {
+      color: black;
+      font-weight: 700;
+    }
+    .nav2 .hidden {
+      display: block;
+      background: transparent;
+      color: white;
+      font-weight: 700;
+      border: none;
+      text-align: top;
+      align-self: top;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 27px;
+      margin-bottom: 5px;
+      position: absolute;
+      left: 72%;
+      top: 31%;
+      margin-right: 50px;
+      cursor: pointer;
+    }
+    .nav2 .menubar {
+      display: inline-block;
+      position: absolute;
+      top: 37%;
+      left: 91%;
+      width: 25px;
+      height: 25px;
+    }
+    .nav2 ul {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      box-shadow: -1px 9px 18px -8px rgba(0, 0, 0, 1);
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.7s opacity ease;
+    }
+    .nav2 ul.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .nav2 ul li {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .nav2 ul li a {
+      color: #9a6b6a;
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: -1px;
+    }
+    .nav2 .search_responsive {
+      display: block;
+      position: absolute;
+      top: 37%;
+      left: 84%;
+      width: 25px;
+      height: 25px;
+    }
+    .banner h1 {
+      font-size: 40px;
+    }
+    .content .row3 a {
+      display: flex;
+      flex-direction: column;
+    }
+    .row3 .row3-col1 {
+      min-width: 200px;
+      height: 250px;
+    }
+    .row3 .row3-col2 {
+      min-height: 250px;
+      width: 200px;
+    }
+    .row3 .row3-col3 {
+      height: 250px;
+      min-width: 200px;
+    }
+    .content .row3 a {
+      font-size: 24px;
+    }
+    .brands h1 {
+      font-size: 32px;
+    }
+    .brands span {
+      font-size: 25px;
+    }
+    .groupes .container2 h1 {
+      font-size: 32px;
+    }
+    .brands .col {
+      position: relative;
+      flex-basis: 48%;
+      max-width: 551px;
+      margin: 0 auto;
+      max-height: 300px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    .brands .left {
+      width: 200px;
+      position: absolute;
+      top: 8%;
+      left: 5%;
+    }
+    .brands .right {
+      position: absolute;
+      left: 46%;
+      top: 25%;
+      height: 258px;
+      width: 300px;
+      transition: 0.6s;
+      overflow: hidden;
+    }
+    .content .row3 a {
+      box-shadow: 0px 0px 20px 5px #662908;
+    }
+    .tarix .content h3 {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+    .tarix .content p {
+      font-size: 14px;
+    }
+    .tarix .history_row_1,
+    .tarix .history_row_2 {
+      flex-direction: column;
+    }
+    .tarix .history_row_1 .content,
+    .tarix .history_row_2 .content {
+      max-width: none;
+      min-width: none;
+      padding: 0 40px 0 0;
+      width: 100%;
+    }
+    .tarix .history_row_1 .image,
+    .tarix .history_row_2 .image {
+      width: 120px;
+      height: 120px;
+    }
+    .tarix .history_row_1 .image img,
+    .tarix .history_row_2 .image img {
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    .tarix .history_row_1 .main {
+      margin-bottom: 20px;
+    }
+    .tarix .history_row_1.nant {
+      margin-bottom: 0px;
+    }
+    .tarix .history_row_1.nant .main {
+      margin-bottom: -20px;
+    }
+    .tarix .history_row_1 .year {
+      font-size: 15px;
+      font-weight: 500;
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 70%;
+      left: 80px;
+    }
+    .tarix .history_row_2.pobeda img {
+      width: 180px;
+      height: 140px;
+    }
+    .tarix .history_row_1 {
+      margin-top: 0px !important;
+    }
+    .tarix .history_row_2 {
+      position: static;
+      margin-top: -60px;
+    }
+    .tarix .history_row_2 .main {
+      position: relative !important;
+      top: 70px !important;
+      left: 0 !important;
+    }
+    .tarix .history_row_2.pobeda .main {
+      margin-bottom: 20px;
+    }
+    .tarix .history_row_2 .year {
+      font-size: 15px;
+      font-weight: 500;
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 120px;
+      left: 80px;
+      z-index: 222;
+    }
+    .tarix .history_row_2 .pobeda_mehsul_1 {
+      width: 100px !important;
+      height: 50px !important;
+      position: relative !important;
+    }
+    .tarix .history_row_2 .pobeda_mehsul_2 {
+      width: 80px !important;
+      height: 70px !important;
+      position: relative !important;
+      left: -10px !important;
+      top: -80px !important;
+    }
+    .tarix .history_row_2 .content {
+      margin-left: 0;
+      margin-top: 0px;
+    }
+    .brands h2{
+      margin-top: 140px;
+    }
+  .statistika p{
+      font-size: 25px;
+      padding: 15px;
+  }
+  .carousel .carousel-item .img-box {
+    width: 100%;
+    box-shadow: 0 6px 20px -6px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  .container2 .carousel .carousel-item .img-box img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fr-count i{
+    font-size: 25px;
+    margin-bottom: 8px;
+  }
+  .fr-count p{
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  }
+  @media only screen and (max-width: 850px) {
+    .nav2 input {
+      position: absolute;
+      top: 100%;
+      left: 70%;
+    }
+    .banner h1 {
+      font-size: 33px;
+    }
+    .banner.brend img {
+    margin-top: 35px;
+    width: 600px;
+    height: 250px;
+    margin-top: 60px;
+  }
+    .brands.brend .col {
+      min-width: 450px;
+    }
+    .brands.brend .col h3 {
+      font-size: 25px;
+    }
+    .brands.brend .col p {
+      font-size: 14px;
+    }
+    .brands span {
+      font-size: 22px;
+    }
+    .groupes .content {
+      margin-bottom: -130px;
+    }
+
+    .recipes h1 {
+      font-size: 30px;
+      position: absolute;
+      top: 65%;
+      left: 30%;
+    }
+    .recipes .btn {
+      font-size: 20px;
+      padding: 5px 20px;
+      position: absolute;
+      top: 82%;
+      left: 35%;
+    }
+    .row3 .row3-col1 {
+      min-width: 190px;
+      height: 220px;
+      margin-bottom: 45px;
+    }
+    .row3 .row3-col2 {
+      min-height: 220px;
+      width: 190px;
+      margin-bottom: 45px;
+    }
+    .row3 .row3-col3 {
+      height: 220px;
+      min-width: 190px;
+      margin-bottom: 45px;
+    }
+    .container3 {
+      width: 97%;
+    }
+  }
+  @media only screen and (max-width: 820px) {
+    .groupes.resept .resept1 {
+      width: 330px;
+    }
+    .groupes.resept .resept1 a {
+      font-size: 25px;
+    }
+    .groupes.resept .resept1 p {
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .popup{
+      width: 80%;
+    }
+    .popup h1{
+        margin-top: 0 !important;
+        padding: 10px 0 !important;
+        font-size: 20px !important;
+    }
+    .groupes.project .resept1 {
+      width: 280px;
+    }
+    .groupes.project .resept1 p {
+      font-size: 13px;
+    }
+  }
+
+  @media  screen and (max-width:500px) {
+    .popup{
+      width: 90%;
+      top: 60%;
+    }
+    .brands h2{
+        margin-top: 50px !important;
+    }
+    .brands.brend .col h2{
+        width: 80% !important;
+    }
+    .map{
+        height: 200px !important;
+        min-height: 0;
+        margin-right: 0 !important;
+    }
+    .map img{
+        width: 100% !important;
+    }
+    .map .icon{
+        width: 25px;
+        height: 25px;
+    }
+    .map i{
+        font-size: 10px;
+    }
+    .fr-count p{
+        font-size: 9px;
+    }
+    .fr-count .counter-value{
+        font-size: 20px !important;
+    }
+    .fr-count i{
+        font-size: 16px;
+    }
+    .container .header_logo{
+        width: 120px;
+        height: 55px;
+    }
+    .groupes.project .resept1{
+        width: 95% !important;
+    }
+    .nav2 .hidden{
+        font-size: 20px;
+    }
+    .nav2 .menubar{
+        width: 20px;
+        height: 20px;
+    }
+    .col.col-1 img{
+        width: 100% !important;
+
+        display: block;
+        margin: 0 auto;
+    }
+    .col.col-1 span{
+        font-size: 24px !important;
+    }
+    .nant_video{
+        width: 100%;
+        padding-right: 0;
+    }
+    .col.col-1{
+        padding-left: 0 !important;
+    }
+    .brands .row{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .container2 {
+        padding: 0 0 0px !important;
+    }
+    .tarix .content{
+        margin-top: 40px !important;
+    }
+    .azerbaycan{
+        max-height: 550px;
+    }
+
+    .tarix h1{
+        margin-bottom: 0 !important;
+    }
+    .banner{
+        height: 100% !important;
+    }
+    .banner.brend img{
+        width: 100% !important;
+        margin-top: 0 !important;
+    }
+    .brands.brend.brend .col{
+        min-width: 107% !important;
+    }
+    .tarix .history_row_1.nant .main{
+        padding-top: 0 !important;
+    }
+    .container2 h1{
+        margin-top: 350px !important;
+        display: block !important;
+        margin-bottom: 35px !important;
+        line-height: 20px;
+    }
+    .popup h1{
+        margin-top: 0 !important;
+        padding: 10px 0 !important;
+        font-size: 20px !important;
+    }
+    .popup p{
+        font-size: 10px !important;
+    }
+    .groupes .content{
+        margin-top: 0 !important;
+    }
+    iframe{
+        height: 300px !important;
+    }
+    .elaqe .jobs{
+        display: block;
+        padding: 10px 20px !important;
+    }
+    .elaqe .jobs .etrafli .date{
+        margin-right: 30px;
+    }
+  }
+
+  @media screen and (max-width:375px){
+    .col.col-1 img{
+        width: 90% !important;
+        margin: 0 !important;
+    }
+  }
+
+  @media screen and (max-width:320px){
+    .col.col-1 img{
+        width: 80% !important;
+        margin: 0 !important;
+    }
+  }
+  @media only screen and (max-width: 732px) {
+    .groupes.resept .resept1 {
+      width: 450px;
+    }
+    .groupes.resept .resept1 img {
+      height: 220px;
+    }
+    .groupes.resept .resept1 a {
+      font-size: 25px;
+    }
+    .groupes.resept .resept1 p {
+      font-size: 16px;
+    }
+    .statistika{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+  }
+  .statistika p{
+      font-size: 20px;
+      padding: 20px;
+  }
+  }
+  @media only screen and (max-width: 690px) {
+    #counter{
+        margin-bottom: 50px !important;
+        margin-top: 0 !important;
+    }
+    .carousel {
+      display: none;
+  }
+  .groupes .container2 h1 {
+    margin-top: 150px;
+    margin-bottom: 20px !important;
+    display: none;
+  }
+  }
+  @media only screen and (max-width: 660px) {
+    .nav2 .hidden {
+      display: block;
+      margin-right: 10px;
+      position: absolute;
+      left: 70%;
+      top: 30%;
+      color: white;
+      font-weight: 700;
+    }
+    .nav2 .hidden option{
+        color: black;
+        font-weight: 700;
+    }
+    .nav2 input {
+      position: absolute;
+      top: 100%;
+      left: 65%;
+    }
+    .banner h1 {
+      font-size: 28px;
+      position: absolute;
+      top: 380px;
+      left: 7%;
+    }
+    .banner.brend img {
+    margin-top: 35px;
+    width: 550px;
+    height: 220px;
+    margin-top: 60px;
+  }
+    .groupes .row3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .groupes .content {
+      margin-bottom: -50px;
+      margin-top: 50px;
+    }
+    .groupes .content .row3-col1 {
+      margin-right: 10px;
+    }
+    .groupes .content .row3-col2 {
+      margin-right: 10px;
+    }
+    .brands h1 {
+      font-size: 28px;
+    }
+    .brands span {
+      font-size: 20px;
+    }
+    .groupes .container2 h1 {
+      font-size: 28px;
+    }
+    .content .row3 a {
+      box-shadow: 3px 3px 15px 3px #662908;
+    }
+    .statistika{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+  }
+  .statistika p{
+      font-size: 18px;
+      padding: 10px 20px;
+  }
+  .container2 .carousel .carousel-item .img-box img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  }
+
+  @media only screen and (max-width: 605px) {
+    .nav2 .hidden {
+      display: block;
+      margin-right: 10px;
+      position: absolute;
+      left: 68%;
+      top: 30%;
+    }
+    .nav2 input {
+      position: absolute;
+      top: 100%;
+      left: 58%;
+    }
+    .container3 {
+      width: 100%;
+    }
+    .banner.brend img {
+    margin-top: 35px;
+    width: 490px;
+    height: 210px;
+    margin-top: 60px;
+  }
+    .brands .row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      overflow: hidden;
+    }
+    .brands img {
+      border-radius: 5px;
+    }
+    .brands .left {
+      width: 150px;
+      position: absolute;
+      top: 8%;
+      left: 7%;
+    }
+    .brands .right {
+      position: absolute;
+      left: 53%;
+      top: 25%;
+      height: 258px;
+      width: 250px;
+      transition: 0.6s;
+      overflow: hidden;
+    }
+    .brands h1 {
+      font-size: 25px;
+    }
+    .groupes .container2 {
+      margin: 0px auto;
+    }
+    .groupes .container2 h1 {
+      font-size: 25px;
+    }
+    footer .footer_col_2 {
+      display: none;
+    }
+    footer .footer_col_3 {
+      flex-direction: row;
+      padding-top: 0;
+      height: 40px;
+    }
+    footer .footer_logo {
+      display: none;
+    }
+    footer .footer_col_3 .social {
+      justify-content: flex-start;
+      padding-left: 0;
+      margin-bottom: 30px;
+    }
+    footer .footer_col_3 .social i {
+      margin-right: 20px;
+    }
+    .statistika p{
+      font-size: 16px;
+      padding: 8px 15px;
+  }
+  }

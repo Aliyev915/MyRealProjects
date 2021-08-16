@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: 'Quicksand', sans-serif;
+}
+.loading{
+    position: absolute;
+    top: 0;
+    background: #eeebdd;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 2222222222;
+}
+.loading ul{
+    position: absolute;
+    top: 50%;   left: 50%;
+    transform: translate(-50%,-50%);
+}
+.loading ul li{
+    list-style: none;
+    display: inline-block;
+    width: 6px; 
+     height: 50px;
+    margin: 0 3px;
+    background: #262626;
+    animation: animate 1s infinite linear;
+}
+@keyframes animate{
+    0%{
+        transform: scaleY(1);
+    }
+    25%{
+        transform: scaleY(3);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+.loading ul li:nth-child(1){
+    background: #f39700;
+   animation-delay: 0s;
+}
+.loading ul li:nth-child(2){
+    background: rgb(240, 133, 0);
+    animation-delay: .1s;
+ }
+.loading ul li:nth-child(3){
+     background: rgb(245, 118, 0);
+    animation-delay: .2s;
+ }
+.loading ul li:nth-child(4){
+     background: rgb(236, 94, 0);
+    animation-delay: .3s;
+ }
+.loading ul li:nth-child(5){
+     background: rgb(234, 75, 0);
+    animation-delay: .4s;
+ }
+.loading ul li:nth-child(6){
+     background: rgb(208, 0, 0);
+    animation-delay: .5s;
+ }
+.loading ul li:nth-child(7){
+     background: rgb(194, 0, 0);
+    animation-delay: .6s;
+ }
+.loading ul li:nth-child(8){
+     background: rgb(175, 0, 0);
+    animation-delay: .7s;
+ }
+.loading ul li:nth-child(9){
+     background: rgb(156, 0, 0);
+    animation-delay: .8s;
+ }

@@ -1,0 +1,41 @@
+.banner.more {
+    margin-top: 89px;
+    background: url("../img/more-bg.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 350px;
+    overflow: hidden;
+  }
+  .container_more{
+    max-width: 1000px;
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container_more_2{
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1350px;
+  }
+  .brand_image{
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  .brand_image img{
+    margin: 40px; 
+    max-width: 200px;
+   }
+  .container_more p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 155%;
+    padding-bottom: 28px;
+   }
+ 

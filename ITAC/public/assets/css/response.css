@@ -1,0 +1,79 @@
+@media screen and (max-width:992px) {
+    #counter-section .col-md-3 {
+        display: none !important;
+    }
+    #call-section .col-lg-5 {
+        display: none !important;
+    }
+}
+@media screen and (max-width:768px) {
+    #slider-section .slider-item {
+        padding: 25px 0 !important;
+    }
+    #slider-section .slider-item .slider-content h2 {
+        font-size: 35px !important;
+        margin-bottom: 20px !important;
+    }
+    #slider-section .slider-item .slider-content p {
+        font-size: 14px !important;
+        margin-bottom: 20px !important;
+    }
+    #about-us .btn-animation {
+        position: relative !important;
+        top: 50px !important;
+    }
+    #about-us .col-6 .img-fluid {
+        position: relative !important;
+        top: -250px;
+        left: 100%;
+    }
+    .check {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    nav .logo {
+        width: 60px !important;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .lang {
+        margin: 0 5px;
+    }
+    .lang ul {
+        width: 80px !important;
+    }
+    .check .btn {
+        font-size: 12px;
+        padding: 5px 25px !important;
+        margin: 10px !important;
+    }
+    .section-heading .section-title {
+        font-size: 10px !important;
+    }
+    .section-heading h3 {
+        font-size: 20px !important;
+    }
+    #about-us {
+        padding: 0 !important;
+    }
+    #about-us .col-6 .img-fluid {
+        top: -230px !important;
+    }
+    .counter {
+        font-size: 25px !important;
+    }
+    .counter-item-img img {
+        margin: 10px 20px;
+        width: 60%;
+    }
+
+    #call-section .call-content p {
+        line-height: 40px !important;
+    }
+    #call-section .call-content h2{
+        font-size: 50px !important;
+    }
+}

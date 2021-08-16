@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+section {
+  padding: 50px  100px;
+}
+.elaqe iframe {
+  width: 100%;
+  height: calc(100vh - 90px);
+  margin-top: 90px;
+}
+/* .elaqe .map{
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+} */
+.elaqe h1 {
+  margin-top: 155px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 48px;
+  line-height: 54px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #7f2f00;
+}
+.cv{
+  width: 30%;
+  display: inline-block;
+  background: rgb(253, 249, 240);
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.cv .sbmt{
+  text-align: center;
+  background: #c63100;
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.7s;
+    padding: 10px 20px;
+    border: none;
+}
+.elaqe .jobs{
+  width: 85%;
+  padding: 10px 20px;
+  margin-top: 40px;
+  background: rgb(253, 249, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    box-shadow: 0px 10px 8px #888888;
+}
+.elaqe .jobs pre{
+ color: #111;
+}
+.elaqe .jobs .job-title{
+display: flex;
+align-items: center;
+}
+.elaqe .jobs .job-title .company{
+  color: #780100;
+}
+.elaqe .jobs .job-title i{
+  color: #7f2f00;
+}
+.elaqe .jobs .job-title img{
+width: 100px;
+height: 80px;
+margin-right: 20px;
+}
+.elaqe .jobs .etrafli{
+  display: flex;
+  align-items: center;
+}
+.elaqe .jobs .etrafli .date{
+  margin-right: 50px;
+}
+.elaqe .jobs .etrafli span{
+padding: 7px 25px;
+border: 1px solid rgb(120, 1, 0);
+border-radius: 5px;
+color: rgb(120, 1, 0);
+  transition: .6s;
+}
+.elaqe .jobs .etrafli span:hover{
+background: rgb(120, 1, 0);
+color: white;
+}
+.elaqe .butun-vakansiyalar{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+.elaqe .butun-vakansiyalar a{
+ border: 1px solid rgb(120, 1, 0);
+  border-radius: 7px;
+  color: rgb(120, 1, 0);
+  padding: 10px 20px;
+  transition: .6s;
+}
+.elaqe .butun-vakansiyalar a:hover{
+ background: rgb(120, 1, 0);
+  color: white;
+}
+
+
+.idare {
+  margin: 20px 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  border-bottom: 1px solid #c63100;
+  color: #c63100;
+  opacity: .5;
+  min-width: 1150px;
+}
+.idare h2 {
+  flex: 2.5;
+  font-size: 20px;
+}
+.idare h3 {
+  flex: 2;
+}
+.idare:hover {
+  transform: translateY(-5px);
+  background: white;
+  transition: .6s;
+}
+.idare:hover{
+  opacity: 1;
+}
+.idare h2,
+.idare h3 {
+  text-align: left;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #c63100;
+  font-weight: 500;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+}
+.heading h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.heading.white {
+  color: grey;
+}
+.formBx {
+  min-width: 60%;
+}
+.formBx form {
+  display: flex;
+  flex-direction: column;
+}
+.formBx form h3,
+.contactInfo h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.formBx form input,
+.formBx form textarea {
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: grey;
+  background: rgba(255, 255, 255,.5);
+  border-bottom: 1px solid #c63100;
+  resize: none;
+}
+.formBx form input:focus,
+.formBx form textarea:focus {
+  background: white;
+}
+.formBx form textarea {
+  min-height: 200px;
+}
+.formBx form input::placeholder,
+.formBx form textarea::placeholder {
+  color: #999;
+}
+.formBx form .btn{
+  width: 100%;
+  text-align: center;
+}
+.formBx form input[type="submit"] {
+  background: #c63100;
+  color: white;
+  cursor: pointer;
+  border-radius: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.7s;
+  width: 200px;
+}
+.formBx form input[type="submit"]:hover {
+  color: #c63100;
+  background: transparent;
+  border: 1px solid #c63100;
+}
+.formBx .in {
+  display: flex;
+  justify-content: space-between;
+}
+.formBx .in input {
+  width: 49%;
+}
+.contactInfo {
+  min-width: 40%;
+}
+.contactInfoBx {
+  position: relative;
+}
+.contactInfoBx .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.contactInfoBx .box .icon {
+  min-width: 40px;
+  padding-top: 4px;
+  color: #c63100;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 24px;
+}
+.contactInfoBx .box .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 16px;
+  color: grey;
+  font-weight: 300;
+}
+.contactInfoBx .box .text h3 {
+  font-weight: 500;
+  color: grey;
+  margin-bottom: 0;
+}
+.container.unvan iframe{
+  margin-bottom: 30px;
+  border-radius: 10px;
+  filter: contrast(50%);
+  transition: .7s;
+}
+.container.unvan iframe:hover{
+  filter: contrast(100%);
+}
+
+/* ------- Responsive ------ */
+@media (max-width: 991px) {
+  .elaqe h1{
+    font-size: 36px;
+  }
+  .idare {
+    margin: 20px 20px;
+    min-width: 300px;
+  }
+  .idare h2 {
+    font-size: 16px;
+  }
+  .idare h3 {
+    font-size: 12px;
+  }
+  .heading h2 {
+    font-size: 24px;
+  }
+  .contentBx h3 {
+    font-size: 20px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .contactInfo {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .elaqe h1{
+    font-size: 24px;
+  }
+  .idare {
+    margin: 20px 20px;
+    min-width: 300px;
+  }
+  .idare h2 {
+    font-size: 14px;
+  }
+  .idare h3 {
+    font-size: 10px;
+  }
+
+  section {
+    padding: 100px 20px;
+  }
+}

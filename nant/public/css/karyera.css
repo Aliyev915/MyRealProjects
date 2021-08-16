@@ -1,0 +1,75 @@
+.karyera h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 0;
+}
+.elaqe.karyera h1 {
+  margin-top: 150px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 48px;
+  line-height: 54px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.karyera .content {
+  display: inline-block;
+  width: 100%;
+}
+.karyera .in {
+  width: 100%;
+}
+.karyera .in input,
+.karyera .in select {
+  width: 30%;
+}
+
+.karyera .in.tehsil input {
+  width: 47%;
+}
+.karyera .in.full input {
+  width: 100%;
+  padding: 20px;
+}
+.karyera .in.diller select {
+  width: 22%;
+  margin-bottom: 20px;
+}
+.karyera .in.texniki_bilikler input {
+  width: 47%;
+  margin-bottom: 20px;
+}
+.karyera .in.diger .col {
+  width: 50%;
+  padding-left: 10px;
+}
+.karyera .in.diger .col h3 {
+  color: #560705;
+  min-height: 70px;
+}
+
+.karyera .in select {
+  padding: 13px 9px;
+  border: none;
+  background: #f1f3f7;
+  cursor: pointer;
+  font-weight: 500;
+  color: grey;
+  border-bottom: 1px solid #c63100;
+  transition: 0.7s;
+}
+.karyera .bottom {
+  margin: 20px 0;
+}
+.karyera .bottom select,
+.karyera .bottom input {
+  width: 23%;
+}
+.karyera .bottom select {
+  padding: 0;
+  height: 55px;
+}
+.btn2 input {
+  width: 250px !important;
+  margin-top: 20px;
+}
